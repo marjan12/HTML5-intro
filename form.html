@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom:10px ;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to jamaler ma Pitha ghor</h2>
+    <form action="">
+        <label for="Name">
+            <input id="name" type="text" placeholder="name">
+        </label>
+        <label for="email">
+            <input type="email" id="email" placeholder="email">
+        </label>
+        <label for="number">
+            <input type="number" id="number" placeholder="number">
+        </label>
+        <fieldset>
+            <legend>Pick One Pitha </legend>
+            <label for=" Chitoi">
+                <input type="radio" name="pitha" id="Chitoi">Chitoi
+            </label>
+            <label for="Bhapa">
+                <input type="radio" name="pitha" id="Bhapa">Bhapa
+            </label>
+            <label for="coconut">
+                <input type="radio" name="pitha" id="coconut">coconut
+            </label>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Select one or more bhorta</legend>
+            <label for="Shorisha">
+                <input type="checkbox" name="Shorisha"  id="Shorisha">Shorisha
+            </label>
+
+            <label for="dal">
+                <input type="checkbox" name="dal"  id="dal">dal
+            </label>
+
+            <label for="Shutki">
+                <input type="checkbox" name="Shutki"  id="Shutki">Shutki
+            </label>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
